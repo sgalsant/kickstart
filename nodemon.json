@@ -1,0 +1,7 @@
+{
+    "verbose": false,
+    "watch": ["dist","dist_test"],
+    "ext": "*",
+    "ignore": ["*.d.ts"],
+    "delay": 3000
+  }

@@ -1,0 +1,25 @@
+// consultar https://khalilstemmler.com/blogs/typescript/eslint-for-typescript/
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "prettier",
+      "@typescript-eslint"
+    ],
+    "extends": [
+  //    "eslint:recommended",
+  //    "plugin:@typescript-eslint/eslint-recommended",
+  //    "plugin:@typescript-eslint/recommended",
+  
+    //    "plugin:@shopify/es5"
+  //  "plugin:@shopify/esnext",
+    "prettier",
+    "plugin:@shopify/typescript"
+    ],
+    "rules": { 
+        "no-console": 0,  // no error
+        "prettier/prettier": 1, // warning 
+        "no-undef": 1,
+        "id-length": 1
+      }
+  }
