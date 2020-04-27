@@ -48,7 +48,7 @@ if (require.main === module) {
 
 //-------------------- solución -----------------------------------------
 // Ejemplo leer para cada caso de test el mismo numero de líneas que el indicado a principio
-function parseInputTest(inputTest: string[]) {
+function parseInputTest(inputTest: string[]): boolean {
   let numName = parseInt(inputTest[0]);
   return numName == inputTest.length - 1;
 }

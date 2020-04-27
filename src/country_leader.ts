@@ -50,7 +50,7 @@ if (require.main === module) {
 // devuelve true cuando finaliza de procesar las líneas para la entrada de un tests
 // Esta función se llamara para cada linea que se procesa, incluyendoa en inputTest
 // En este ejemplo la primera línea del test indica cuantos nombres (líneas) venían a continuación
-function parseInputTest(inputTest: string[]) {
+function parseInputTest(inputTest: string[]): boolean {
     let numName = parseInt(inputTest[0]);
     return numName == inputTest.length - 1;
 }
