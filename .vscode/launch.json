@@ -5,24 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Chrome app",
-            "type": "chrome",
-            "request": "launch",
-            "port": 9223,
-            "url": "http://localhost:8080/public/index.html",
-            "webRoot": "${workspaceFolder}"
-        },
-
-        {
-            "name": "Chrome test",
-            "type": "chrome",
-            "request": "launch",
-            "port": 9223,
-            "url": "http://localhost:8080/public/test.html",
-            "webRoot": "${workspaceFolder}"
-        },
-        
-        {
             "name": "node app",
             "type": "node",
             "request": "launch",
