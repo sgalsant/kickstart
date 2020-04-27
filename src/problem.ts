@@ -70,3 +70,6 @@ export function solve(currentTest: number, read: Function, write: Function) {
   // en este ejemplo devuelve toda la entrada recibida para el test, uniendo las líneas con @
   write(`Case #${currentTest}: ${result.join("@")}`);
 }
+
+// si lo quieres ejecutar desde línea de comandos: node dist/problem.js
+// si quieres pasarle el contenido de un fichero: node dist/problem.js < data/leader
